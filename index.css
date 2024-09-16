@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+    /* border:1px solid royalblue; */
+    /* border: none; */
+}
+.Section1{
+    display: flex;
+    flex-direction: row;
+}
+.One{
+    width: 55%;
+}
+.Two{
+    width: 50%;
+}
+.Two #myForm{
+    display: flex;
+    flex-direction: column;
+}
+.Two h1{
+    font-size: 30px;
+    text-align: center;
+    color: crimson;
+    text-decoration: underline 3px solid indigo;
+}
+#myForm label{
+    color: cadetblue;
+    margin-top: 2%;
+}
+input[type="text"],[type="email"],[type="password"]{
+    border: none;
+    border-radius: 20px;
+    box-shadow: 1px 2px 3px navy;
+    padding: 1%;
+    margin-bottom: 1%;
+    width: 90%;
+}
+.Check{
+    display: flex;
+    flex-direction: row;
+}
+input[type="checkbox"] {
+    accent-color: violet;
+    margin-right: 2%;
+}
+.button{
+    width:90%;
+    border-radius: 10px;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: aquamarine;
+    border: 1.5px solid blanchedalmond;
+    margin-bottom: 2%;
+}
+.button:hover{
+    color: cornflowerblue;
+    background-color: wheat;
+    border: 1.5px solid bisque;
+}
+hr{
+    width:90%;
+}
+h6{
+    text-align: center;
+    font-size: 14px;
+}
+h6 a{
+    text-decoration: none;
+    color:darkcyan;
+}
